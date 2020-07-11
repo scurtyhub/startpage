@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.navbar p {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: Helvetica;
+  }
+
+.content-center {
+    position: absolute;
+    position: fixed;
+    top: 25%;
+    left: 33%;
+}
+
+.center-column {
+    border-left: 3px solid black; 
+    height: 100px;
+}
+
+.right-column img{
+    width: 150px;
+}
+
+.left-column {
+    font-family: 'American Typewriter', 'serif';
+    text-align: right;
+}
+
+iframe {
+    overflow:hidden;
+    position: absolute;
+    width: 420px;
+    height: 60px;
+    float: left;
+    left: 39.5%;
+    top: 45%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+  }
+
+.content-table {
+    border-collapse: collapse;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    margin-bottom: 100px;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: 'American Typewriter', 'serif';
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+
+.content-table thead tr {
+    background-color: black;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+
+.content-table th, .content-table td {
+    padding: 5px 5px;
+  }
+
+#footer {
+    position:absolute;
+    bottom:0;
+    background-color: black;
+    color: white;
+    width: 100%;
+ }
+
+ #footertext {
+     text-align: center;
+     padding: 5px;
+ }
