@@ -3,3 +3,6 @@
 
 #ignore ds store file
 *.DS_Store
+
+#ignore idea config
+.idea/
