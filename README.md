@@ -24,14 +24,27 @@ weather_units = metric
 default_value = -1
 ```
 
-### Set up via Docker
+### Update index.html
+Modify the links under selfhosted to point to your services. You can add any additional websites here.
+
+### Set up
+#### Docker:
+
 If you haven't already set up Docker. You can set it up [here](https://docs.docker.com/get-docker/)
 ```sh
 docker build -t startpage:latest .
 docker run -d -p 5000:5000 startpage:latest
 ```
+#### Virtual Environment
+```sh
+python3 -m venv .
+source bin/activate
+pip install -r requirements.txt
+python app.py
+```
+
 Verify the deployment by navigating to your server address in your preferred browser.
 ```sh
-http://<ip address>:9999
+http://localhost:5000
 ```
 Now you can set your default home page to your new start page.
