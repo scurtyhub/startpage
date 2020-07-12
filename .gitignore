@@ -6,3 +6,9 @@
 
 #ignore idea config
 .idea/
+
+#ignore venv files
+bin/
+include/
+lib/
+pyvenv.cfg
