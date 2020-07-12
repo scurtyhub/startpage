@@ -28,7 +28,7 @@ default_value = -1
 If you haven't already set up Docker. You can set it up [here](https://docs.docker.com/get-docker/)
 ```sh
 docker build -t startpage:latest .
-docker run -d -p 9999:9999 startpage:latest
+docker run -d -p 5000:5000 startpage:latest
 ```
 Verify the deployment by navigating to your server address in your preferred browser.
 ```sh
