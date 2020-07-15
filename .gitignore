@@ -1,0 +1,14 @@
+#ignore config files
+*.ini
+
+#ignore ds store file
+*.DS_Store
+
+#ignore idea config
+.idea/
+
+#ignore venv files
+bin/
+include/
+lib/
+pyvenv.cfg

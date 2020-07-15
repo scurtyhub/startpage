@@ -11,4 +11,4 @@ def index():
     return render_template('index.html', ip=public_ip, region=region, isp=isp, location=weather_info['location'], description=weather_info['description'], temperature=weather_info['temperature']['now'])
 
 if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0')
+    app.run(host='0.0.0.0')
