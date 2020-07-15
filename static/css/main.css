@@ -43,6 +43,7 @@ body {
 .left-column {
   font-family: 'American Typewriter', 'serif';
   text-align: right;
+  font-size: 0.9em;
 }
 
 iframe {
