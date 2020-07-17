@@ -47,6 +47,11 @@ body {
   font-family: 'American Typewriter', 'serif';
   text-align: right;
   font-size: 0.9em;
+  border: 2px solid #f3dcd4;
+  background-color: #f3dcd4;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px -5px #333;
+  box-shadow: -5px 0 5px -5px #333;
 }
 
 
@@ -62,7 +67,7 @@ iframe {
 a {
   text-decoration: none;
   color: black;
-  background-color: rgb(222, 222, 236);
+  background-color: #f3dcd4;
 }
 
 .content-table {
